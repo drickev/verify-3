@@ -5,13 +5,21 @@ export default {
 		// add your alliance name + role_id here
 		{
 			name: 'Storm',
-			role_id: '1248297570376220755',
+			role_id: '1248994303242407978',
 		},
 		{
 			name: 'Crimson',
-			role_id: '1250755293147561994',
+			role_id: '1248994381667631154',
+		},
+		{
+			name: 'Legends',
+			role_id: '1248994416706981889',
+		},
+		{
+			name: 'Moon',
+			role_id: '1250095818820554833',
 		}
 
 	],
-	VERIFY_CHANNEL_ID: '1246139767611986062',
+	VERIFY_CHANNEL_ID: '1113778256156557344',
 };
