@@ -1,33 +1,25 @@
 export default {
 	BOT_TOKEN:
-		'Your_Token',
+		'TOKEN_HERE',
 	ALLIANCE_LIST: [
-		// add your alliance name + role_id here
-		{
-			name: 'Crimson',
-			role_id: '1127958023172804708',
-		},
 		{
 			name: 'Storm',
-			role_id: '1127957920043253801',
+			role_id: '1248994303242407978',
+		},
+		{
+			name: 'Crimson',
+			role_id: '1248994381667631154',
 		},
 		{
 			name: 'Legends',
-			role_id: '1197824089251905568',
+			role_id: '1248994416706981889',
 		},
 		{
-			name: 'Desire',
-			role_id: '1202134843786534923',
+			name: 'Moon',
+			role_id: '1250095818820554833',
 		},
-		{
-			name: 'Phoenix',
-			role_id: '1198274099668066436',
-		},
-		{
-			name: 'Atreides',
-			role_id: '1206597005129023528',
-		}
-
 	],
-	VERIFY_CHANNEL_ID: '1215996857885655150',
+	VERIFY_CHANNEL_ID: '1250810845298950255',
+	ADMIN_ROLE_ID: ['915059991864561714'],
+	DATABASE_URI: '',
 };
