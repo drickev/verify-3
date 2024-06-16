@@ -1,6 +1,6 @@
 export default {
 	BOT_TOKEN:
-		'TOKEN_HERE',
+		'',
 	ALLIANCE_LIST: [
 		{
 			name: 'Storm',
@@ -20,6 +20,6 @@ export default {
 		},
 	],
 	VERIFY_CHANNEL_ID: '1250810845298950255',
-	ADMIN_ROLE_ID: ['915059991864561714'],
-	DATABASE_URI: '',
+	ADMIN_ROLE_ID: ['1250468694627455056'],
+	DATABASE_URI: 'mongodb+srv://apriantohaerul:rian2204@cluster0.fymiida.mongodb.net/Verify2?retryWrites=true&w=majority&appName=Cluster0',
 };

@@ -17,5 +17,14 @@
     "sharp": "^0.33.4",
     "tesseract.js": "^5.1.0",
     "xlsx": "^0.18.5"
-  }
+  },
+  "version": "1.0.0",
+  "description": "To install dependencies:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
 }
