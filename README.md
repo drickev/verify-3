@@ -54,7 +54,7 @@ replace "TOKEN_HERE" with your bot token.
 
 2. in config.ts in string 
 ```ALLIANCE_LIST: [
-        ```{
+        {
             name: 'Storm',
             role_id: '1248994303242407978',
         },
@@ -70,6 +70,32 @@ replace "TOKEN_HERE" with your bot token.
             name: 'Moon',
             role_id: '1250095818820554833',
         },
-    ],```
-
+    ],
+```
 Change the value after "name:" using the name of the alliance registered on your server then in "role_id:" enter the role ID of the alliance on your server following the alliance name. You can add or reduce the number of alliances and their roles.
+
+3. To make the bot only detects images in the verification channel, change the ID number 
+``` VERIFY_CHANNEL_ID: '1250810845298950255',``` 
+with the channel ID number on your server
+
+4. On the line ``` ADMIN_ROLE_ID: ['915059991864561714'],``` 
+Replace the ID number with your server admin role ID number. This functions so that the bot can mention the admin if a double/fake/manipulation occurs in the bot verify and also this functions so that the bot command can only be used by the admin/moderator
+
+5. In the line ```DATABASE_URI: 'your_mongodb_database_url',``` replace your_mongodb_database_url with your database url (on the dashboard, go to database then select the database that the bot will connect to then click connect and select Drivers) exampel : mongodb+srv://yourdatabasenicknamehere:<your_password>@cluster0.fymiida.mongodb.net/type_your_database_name_here?retryWrites=true&w=majority&appName=Your_Cluster_here
+
+
+
+Activate the bot using ```bun .```
+
+# Read carefully, missing any step will ruin entire step
+
+**HOW TO USE BOTS**
+
+for public : 
+1. Type !<UID> then add the related screenshot (only valid on the related channel)
+
+for admins: 
+The bot is equipped with several commands that can only be accessed by the admin
+1. /find [UID] = the bot will display the relevant UID along with the verified IGN, USER DISCORD ID, ROLE ID, and ALLIANCE.
+2. /del [UID] = the bot will delete the associated UID from the database, to release the role the bot cannot release it automatically.
+3. /export = to export verification data into an XLXS file
