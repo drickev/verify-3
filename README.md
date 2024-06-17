@@ -81,7 +81,7 @@ with the channel ID number on your server
 4. On the line ``` ADMIN_ROLE_ID: ['915059991864561714'],``` 
 Replace the ID number with your server admin role ID number. This functions so that the bot can mention the admin if a double/fake/manipulation occurs in the bot verify and also this functions so that the bot command can only be used by the admin/moderator
 
-5. In the line ```DATABASE_URI: 'your_mongodb_database_url',``` replace your_mongodb_database_url with your database url (on the dashboard, go to database then select the database that the bot will connect to then click connect and select Drivers) exampel : mongodb+srv://yourdatabasenicknamehere:<your_password>@cluster0.fymiida.mongodb.net/type_your_database_name_here?retryWrites=true&w=majority&appName=Your_Cluster_here
+5. In the line ```DATABASE_URI: 'your_mongodb_database_url',``` replace your_mongodb_database_url with your database url (on the dashboard, go to database then select the database that the bot will connect to then click connect and select Drivers) exampel : ```mongodb+srv://yourdatabasenicknamehere:<your_password>@cluster0.fymiida.mongodb.net/type_your_database_name_here?retryWrites=true&w=majority&appName=Your_Cluster_here```
 
 
 
