@@ -53,8 +53,8 @@ then verify with ```node -v```
 replace "TOKEN_HERE" with your bot token.
 
 2. in config.ts in string 
-```ALLIANCE_LIST: [``
-        {
+```ALLIANCE_LIST: [
+        ```{
             name: 'Storm',
             role_id: '1248994303242407978',
         },
@@ -70,6 +70,6 @@ replace "TOKEN_HERE" with your bot token.
             name: 'Moon',
             role_id: '1250095818820554833',
         },
-    ],
+    ],```
 
 Change the value after "name:" using the name of the alliance registered on your server then in "role_id:" enter the role ID of the alliance on your server following the alliance name. You can add or reduce the number of alliances and their roles.
