@@ -45,3 +45,31 @@ then verify with ```node -v```
 - then open https://bun.sh then select linux and copy the command ```curl -fsSL https://bun.sh/install | bash``` 
 - then type ```bun install``` To install dependencies
 
+**Bot configuration :**
+1. Open your VPS panel and go to the bot directory, then go to */src* and edit the config.ts file. On strings 
+
+` BOT_TOKEN: `
+` 'TOKEN_HERE', //replace TOKEN_HERE with your bot token `
+replace "TOKEN_HERE" with your bot token.
+
+2. in config.ts in string 
+```ALLIANCE_LIST: [``
+        {
+            name: 'Storm',
+            role_id: '1248994303242407978',
+        },
+        {
+            name: 'Crimson',
+            role_id: '1248994381667631154',
+        },
+        {
+            name: 'Legends',
+            role_id: '1248994416706981889',
+        },
+        {
+            name: 'Moon',
+            role_id: '1250095818820554833',
+        },
+    ],
+
+Change the value after "name:" using the name of the alliance registered on your server then in "role_id:" enter the role ID of the alliance on your server following the alliance name. You can add or reduce the number of alliances and their roles.
